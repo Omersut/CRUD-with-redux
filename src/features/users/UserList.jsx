@@ -39,9 +39,9 @@ export default function UserList() {
 
   return (
     <div>
-      <Link to="/add-user"><Button>Add User</Button></Link>
+      <Link to="/add-user"><Button>Add Quote</Button></Link>
       <div className="grid gap-5 md:grid-cols-2">
-        {users.length ? renderCard() : <p className="text-center col-span-2 text-gray-700 font-semibold">No User</p>}
+        {users.length ? renderCard() : <p className="text-center col-span-2 text-gray-700 font-semibold">No Quote</p>}
       </div>
     </div>
   )
