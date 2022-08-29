@@ -24,7 +24,7 @@ const AddUser = () => {
     <div className='mt-10 max-w-xl mx-auto'>
       <TextField label='Name' inputProps={{type: "text", placeholder: "john doe"}}  value={values.name} onChange={(e) => setValues({...values, name: e.target.value })}/>
       <br/>
-      <TextField label='Email' inputProps={{type: "email", placeholder: "mail"}} onChange={(e) => setValues({...values, email: e.target.value })} value={values.email}/>
+      <TextField label='Quotes' inputProps={{type: "text", placeholder: "Quotes"}} onChange={(e) => setValues({...values, email: e.target.value })} value={values.email}/>
       <Button onClick={handleAddUser}>Submit</Button>
     </div>
   
